@@ -1,6 +1,7 @@
 import time
 scale=60
 start = time.perf_counter()
+
 for i in range(scale+1):
     a = '*' * i
     b = '-' * (scale - i)
